@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse bg-inverse">
+	<div class="navbar-brand">
+		<a href="#">Some information</a>
+	</div>
+	<!-- /.navbar-brand -->
+</nav>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="jumbotron">
+				<h1 class="display-3">Simple web-socket example</h1>
+			</div>
+			<div class="card">
+				<div class="card-block">
+					<div class="form-group row">
+						<label for="message" class="col-2 col-form-label" id="status">Status</label>
+						<div class="col-4">
+							<textarea type="text" id="message" class="form-control"></textarea>
+							<input type="button" id="send" class="form-control btn btn-danger" value="Send">
+							<input type="button" id="stop" class="form-control btn btn-warning" value="Stop">
+						</div>
+						<!-- /.col-10 -->
+					</div>
+					<!-- /.form-group -->
+				</div>
+			</div>
+		</div>
+		<!-- /.col-md-12 -->
+	</div>
+	<!-- /.row -->
+</div>
+<!-- /.container -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+		crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="web-socket.js"></script>
+</body>
+</html>
